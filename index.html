@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kartik Parmar | Cloud Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+      color: #e0e0e0;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    header {
+      text-align: center;
+      padding: 5rem 1rem;
+      background: url('https://www.transparenttextures.com/patterns/cubes.png'), radial-gradient(ellipse at top, #1a1a1a 0%, #0f0f0f 100%);
+      background-attachment: fixed;
+      background-size: cover;
+      color: #fff;
+      position: relative;
+      z-index: 1;
+    }
+
+    .resume-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #00ffff22;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+  background: #00ffff;
+  color: #121212;
+  box-shadow: 0 0 10px #00ffff99;
+}
+
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #00ffff;
+      letter-spacing: 1px;
+    }
+
+    .typed-text {
+      font-size: 1.2rem;
+      color: #888;
+    }
+
+    section {
+      padding: 3rem 10%;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      border-left: 4px solid #00ffff;
+      padding-left: 1rem;
+      color: #00ffff;
+    }
+
+    .project, .internship {
+      background: rgba(255, 255, 255, 0.03);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      border: 1px solid #333;
+      transition: transform 0.3s ease;
+    }
+
+    .project-title, .internship-title {
+      color: #fdd835;
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .skill {
+      background: rgba(0, 255, 255, 0.1);
+      border: 1px solid #00ffff;
+      padding: 1rem 1.5rem;
+      border-radius: 12px;
+      font-size: 1rem;
+      color: #00ffff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: default;
+    }
+
+    .skill:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px #00ffff66;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-bottom: 0.8rem;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: #666;
+      background-color: #111;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 768px) {
+      section {
+        padding: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kartik Parmar</h1>
+        <p class="typed-text"><span id="typed"></span></p>
+        <a href="Kartik_Parmar_Resume.pdf" download class="resume-btn">📄 Download Resume</a>
+      </header>
+      
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate Cloud Engineer with a broad tech background — from crafting simple static websites with HTML and CSS, to deploying decentralized smart contracts on the Ethereum blockchain.
+    </p>
+    <p>
+      My curiosity and love for technology drive me to experiment with everything from data analytics and machine learning, to serverless computing and scalable cloud infrastructures. I'm all about building smart, impactful, and future-ready solutions.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+  
+    <div class="project">
+      <div class="project-title">Printable Report Card</div>
+      <p>
+        A digital gradebook system where students can view their academic performance, track progress, and compare class rankings. Teachers can publish results, while students access real-time stats, including toppers and personal progress metrics.
+      </p>
+    </div>
+  
+    <div class="project">
+      <div class="project-title">Plastic Waste Reduction Chatbot</div>
+      <p>
+        Designed a chatbot that encourages users to reduce and recycle plastic. It includes a plastic usage footprint calculator to help households measure and improve their environmental impact — merging tech with sustainability.
+      </p>
+    </div>
+  
+    <div class="project">
+      <div class="project-title">Auction.ify</div>
+      <p>
+        A blockchain-powered auction platform that ensures secure, transparent, and decentralized bidding. Using Ethereum smart contracts, Auction.ify removes middlemen and establishes trust through code, offering immutable and fair auctions.
+      </p>
+    </div>
+  
+    <div class="project">
+      <div class="project-title">High Park Nature Centre</div>
+      <p>
+        Developed a website for the High Park Nature Centre, integrating geolocation features to visualize animal sightings within the park. Parsed wildlife datasets and displayed real-time sightings on an interactive map, allowing users to explore where different species were observed.
+      </p>
+    </div>
+  
+    <div class="project">
+      <div class="project-title">Empathetic Career AI</div>
+      <p>
+        Built a conversational AI assistant focused on guiding users through career questions with empathy. Trained on curated datasets and designed in collaboration with the Human Feedback Foundation, this chatbot blends informative responses with emotional intelligence.
+      </p>
+    </div>
+  </section>
+  
+  <section id="internships">
+    <h2>Internships</h2>
+
+    <div class="internship">
+      <div class="internship-title">D3CODE – Junior WordPress Developer</div>
+      <p>
+        Built and managed dynamic WordPress sites with custom themes and plugins. Worked on client projects and honed skills in front-end development, optimization, and responsive design.
+      </p>
+    </div>
+
+    <div class="internship">
+      <div class="internship-title">Kanz IT – Mobile App Concept Developer</div>
+      <p>
+        Developed a detailed blueprint for a mobile application, from user flow diagrams to technical stack decisions. This 3-month proof of concept guided full development planning.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">WordPress Development</div>
+      <div class="skill">Java</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">AWS Cloud Services</div>
+      <div class="skill">Amazon Redshift</div>
+      <div class="skill">Big Data Analytics</div>
+      <div class="skill">Machine Learning</div>
+      <div class="skill">AI Research</div>
+      <div class="skill">Blockchain</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <a href="mailto:kartikparmarrr@gmail.com">📧 kartikparmarrr@gmail.com</a>
+      <a href="https://www.linkedin.com/in/kartik-parmar-388aa2244/" target="_blank">🔗 LinkedIn Profile</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Kartik Parmar. Crafted with ⚡ and coffee.
+  </footer>
+
+  <!-- Scripts for Typing + Scroll Reveal -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    // Typed.js for typing animation
+    const typed = new Typed('#typed', {
+      strings: ["Cloud Engineer.", "Blockchain Enthusiast.", "AI Explorer.", "Problem Solver.", "Creator of Cool Stuff."],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+
+    // ScrollReveal animations
+    ScrollReveal().reveal('section', {
+      delay: 200,
+      distance: '40px',
+      origin: 'bottom',
+      duration: 1000,
+      easing: 'ease-out',
+      opacity: 0,
+      interval: 200
+    });
+
+    // Alternate project cards from left/right
+    const projectCards = document.querySelectorAll('.project');
+    projectCards.forEach((card, i) => {
+      ScrollReveal().reveal(card, {
+        delay: 300 + i * 150,
+        distance: '40px',
+        origin: i % 2 === 0 ? 'left' : 'right',
+        duration: 800,
+        easing: 'ease-in-out',
+        opacity: 0
+      });
+    });
+
+    // Skills and contact elements
+    ScrollReveal().reveal('.skill, .contact a', {
+      delay: 400,
+      distance: '20px',
+      origin: 'bottom',
+      duration: 800,
+      interval: 100
+    });
+  </script>
+</body>
+</html>
